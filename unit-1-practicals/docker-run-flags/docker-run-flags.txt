@@ -1,0 +1,10 @@
+Practical: Docker run with -it, -e, -v, --name
+
+Command used:
+docker run -it --name my_app -e APP_ENV=production -v studentdata:/app my_image bash
+
+Explanation:
+-it : interactive terminal
+-e  : environment variable
+-v  : volume mounting
+--name : container name
