@@ -1,0 +1,5 @@
+A Docker volume named studentdata was created.
+The volume was mounted to multiple containers.
+Files created inside the volume persisted even after container deletion.
+The same volume was shared between multiple containers.
+Deleting containers did not delete volume data.
