@@ -1,0 +1,11 @@
+Practical: Docker Port Mapping
+
+Command:
+docker run -d --name db-app -p 80:8082 mongo
+
+Explanation:
+Host port 80 is mapped to container port 8082.
+
+Verification:
+docker ps
+docker port db-app
