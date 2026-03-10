@@ -1,0 +1,15 @@
+Practical: Start and Stop Docker Container
+
+Initially, the container web_server did not exist, so docker start failed.
+
+Command to create container:
+docker run -d --name web_server nginx
+
+Command to stop container:
+docker stop web_server
+
+Command to start container again:
+docker start web_server
+
+Conclusion:
+A container must exist before it can be started or stopped.

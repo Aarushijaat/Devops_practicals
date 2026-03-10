@@ -1,0 +1,3 @@
+A bind mount was used to connect a host directory to an Nginx container.
+Changes made to index.html on the host were immediately reflected in the container.
+This demonstrates real-time file synchronization using Docker bind mounts.
